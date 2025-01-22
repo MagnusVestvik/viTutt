@@ -1,0 +1,12 @@
+#### Replace the X with . using vim motions! ####
+# -> = l, <- = h, ^ = k, v = j
+# you can delete a letter with x in normal mode.
+# you can enter insert mode by pressing i this will put the cursor behind the character youre hovering 
+# or use a to enter insert mode infront of the character youre hovering.
+# to save changes you can do :w and to quit is :q and to save and quit is :wq
+
+X..X.
+..X..
+.X..X
+....X
+X.X..
