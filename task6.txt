@@ -1,24 +1,13 @@
-# Oppgave 1: Bruk '%s/gamle/nye/gc' for å erstatte hver andre forekomst av 'gamle' med 'nye', 
+# Oppgave 1: Bruk 'gg' for å gå til toppen og 'G' for å gå til bunnen
+mange
+linjer
+med
+tekst
+her
 
-function greetings() {
-    console.log("hei på deg");
-    const message = "jeg vil si hei";
-    return {
-        morning: "hei og god morgen",
-        evening: "hei og god kveld",
-        greeting: "hei igjen"
-    };
-}
+# Oppgave 2: Bruk '{' og '}' for å hoppe mellom avsnitt
+Dette er første avsnitt.
 
-# Forklaring:
-Trykk ':' for å starte kommandomodus
-Skriv '%s/hei/hade/gc'
+Dette er andre avsnitt.
 
-    % betyr hele filen
-    s/ starter søk og erstatt
-    hei er søkeordet
-    hade er erstatningsordet
-    g betyr global (alle forekomster på hver linje)
-    c betyr at du må bekrefte hver endring
-
-
+Dette er tredje avsnitt.

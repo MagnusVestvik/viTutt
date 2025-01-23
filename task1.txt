@@ -1,51 +1,52 @@
 # Oppgave 1: Bruk 'x' for å slette bokstaven 'x'
-hellxo world
-
-Norske instruksjoner:
-- Bruk 'h' for å bevege markøren til venstre
-- Bruk 'l' for å bevege markøren til høyre
-- Naviger til 'x' ved å trykke 'l' fem ganger (eller til markøren er over 'x')
+Instruksjoner:
+- Bruk 'h' for å bevege cursoren til venstre
+- Bruk 'l' for å bevege cursoren til høyre
+- Naviger til 'x' ved å trykke 'l' fem ganger (eller til cursoren er over 'x')
 - Trykk 'x' for å slette bokstaven
 
+hello world
+
+
+
 # Oppgave 2: Bruk 'dd' for å slette hele linjen
+Instruksjoner:
+- Bruk 'j' for å bevege cursoren ned en linje
+- Bruk 'k' for å bevege cursoren opp en linje
+- Naviger til linjen "denne linjen skal slettes" (cursoren kan være hvor som helst på linjen)
+- Trykk 'dd' for å slette hele linjen
 denne linjen skal slettes
 behold denne linjen
 
-Norske instruksjoner:
-- Bruk 'j' for å bevege markøren ned en linje
-- Bruk 'k' for å bevege markøren opp en linje
-- Naviger til linjen "denne linjen skal slettes" (markøren kan være hvor som helst på linjen)
-- Trykk 'dd' for å slette hele linjen
+
 
 # Oppgave 3: Bruk 'dw' for å slette ordet 'slett'
-jeg vil slett beholde resten
-
-Norske instruksjoner:
-- Bruk 'h' for å bevege markøren til venstre
-- Bruk 'l' for å bevege markøren til høyre
-- Bruk 'j' for å bevege markøren ned
-- Bruk 'k' for å bevege markøren opp
+Instruksjoner:
+- Bruk 'h' for å bevege cursoren til venstre
+- Bruk 'l' for å bevege cursoren til høyre
+- Bruk 'j' for å bevege cursoren ned
+- Bruk 'k' for å bevege cursoren opp
 - Naviger til starten av ordet 'slett' ved å bruke hjkl
-- Når markøren er på 's' i 'slett', trykk 'dw' for å slette ordet
+- Når cursoren er på 's' i 'slett', trykk 'dw' for å slette ordet
+
+jeg vil slett beholde resten
 
 Tips for effektiv navigering:
 - 'h' er venstre (tenk på at h er lengst til venstre av hjkl)
 - 'j' er ned (tenk på j som en pil som peker ned)
 - 'k' er opp
 - 'l' er høyre
-- Du kan holde inne en navigasjonstast for å bevege markøren raskere
+- Du kan holde inne en navigasjonstast for å bevege cursoren raskere
 
-# Oppgave 4: Bruk 'I' for å sette inn tekst på starten av linjen
-hei verden    # skal bli: GOD MORGEN hei verden
+# Oppgave 4: Bruk '$' for å gå til slutten av linjen.
+Deretter bruk 'I' for å sette inn tekst på starten av linjen
+# skal bli: hello world
+world    
 
 # Oppgave 5: Bruk 'A' for å legge til tekst på slutten av linjen
-dette er en test    # skal bli: dette er en test!!!
+# skal bli: dette er en test!!!
+dette er en test
 
 # Oppgave 6: Bruk '0' og 'A' for å navigere til start og slutt av linjen og legg til tekst
-    python er gøy    # skal bli: # python er gøy :)
-
-# Oppgave 7: Bruk '$' og 'I' for å navigere til slutten og sette inn tekst før siste ord
-jeg liker å programmere kode    # skal bli: jeg liker å programmere Python kode
-
-# Oppgave 8: Kombiner '0', '$', 'I' og 'A' for å modifisere linjen
-hei på deg    # skal bli: Kjære hei på deg hilsen
+# skal bli: #vim is awsome:)
+    vim is awsome    

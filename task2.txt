@@ -1,5 +1,10 @@
-# Oppgave 1: Bruk 'di"' for å slette tekst inni anførselstegn
-const message = "dette skal slettes"
+Her er en oppgave som fokuserer på å kopiere tekst ved hjelp av yy, yyp, p og visual mode i Vim:
+#Oppgave 1: Bruk 'yy' for å kopiere en linje, og 'p' for å lime inn etter markøren
 
-# Oppgave 2: Bruk 'da"' for å slette tekst og anførselstegn
-const greeting = "hei på deg"
+Kopier denne linjen ved å bruke yy og lim den inn under ved å bruke p.
+
+#Oppgave 2: Bruk visual mode for å kopiere deler av tekst, Gå til starten av teksten du vil kopiere, trykk v for å gå inn i visual mode, 
+og merk teksten. Deretter bruk y for å kopiere den merkede teksten og p for å lime inn.
+
+Dette er en del av teksten. Kopier meg mer tekst som kan kopieres. Og enda mer tekst her.
+

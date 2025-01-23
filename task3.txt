@@ -1,10 +1,10 @@
-# Oppgave 1: Bruk 'di(' for å slette innholdet i parenteser
-function test(dette skal bort) {
-    return true;
-}
+# Oppgave 1: Bruk 'di"' for å slette tekst inni anførselstegn NB dette kan gjøre fra hvosom helst på linjen!
+const message = "dette skal slettes"
 
-# Oppgave 2: Bruk 'di{' for å slette innholdet i krøllparenteser
-const obj = {
-    dette: 'skal',
-    også: 'bort'
-}
+# Oppgave 2: Bruk 'da"' for å slette tekst og anførselstegn
+const greeting = "hei på deg"
+
+TIPS: 
+Man kan tenkt på i som inside og a som i around så 
+første opppgave blir da delete inside "
+og andre delete around "
