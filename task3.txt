@@ -1,0 +1,10 @@
+# Oppgave 1: Bruk 'di(' for å slette innholdet i parenteser
+function test(dette skal bort) {
+    return true;
+}
+
+# Oppgave 2: Bruk 'di{' for å slette innholdet i krøllparenteser
+const obj = {
+    dette: 'skal',
+    også: 'bort'
+}

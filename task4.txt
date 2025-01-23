@@ -1,0 +1,5 @@
+# Oppgave 1: Bruk 'f,' så 'dt,' for å slette første parameter
+function example(førsteParam, andreParam, tredjeParam) {
+
+# Oppgave 2: Bruk 'F,' så 'dt)' for å slette siste parameter
+function test(behold, denne, slettDenne) {

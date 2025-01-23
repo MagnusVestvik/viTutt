@@ -1,0 +1,97 @@
+Vim Cheat Sheet
+Modes i Vim
+Normal Mode
+
+    Standard modus når du starter Vim
+    Her kan du navigere og utføre kommandoer
+    Trykk ESC for å komme tilbake til normal mode
+
+Insert Mode
+
+    Modus for å skrive/redigere tekst
+    Gå inn i denne modusen med i, I, a, A, etc.
+    Dette er som en vanlig teksteditor
+    Trykk ESC for å gå tilbake til normal mode
+
+Visual Mode
+
+    Modus for å markere tekst
+    Start med v for tegn-basert, V for linjebasert, eller Ctrl+v for blokk
+
+Navigasjon
+Grunnleggende bevegelse
+
+h - venstre
+j - ned
+k - opp
+l - høyre
+
+Linje-navigasjon
+
+0   - Start av linjen (inkludert whitespace)
+^   - Start av tekst på linjen
+$   - Slutt av linjen
+
+Dokument-navigasjon
+
+gg  - Hopp til toppen av dokumentet
+G   - Hopp til bunnen av dokumentet
+{   - Hopp til forrige avsnitt
+}   - Hopp til neste avsnitt
+
+Redigering
+Grunnleggende redigering
+
+x   - Slett tegn under markør
+dd  - Slett hele linjen
+dw  - Slett ord
+
+Insert-kommandoer
+
+i   - Sett inn tekst der markøren er
+I   - Sett inn tekst på start av linjen
+a   - Sett inn tekst etter markøren
+A   - Sett inn tekst på slutten av linjen
+
+Tekst-objekter
+
+di" - Slett innholdet mellom anførselstegn
+da" - Slett innholdet og anførselstegnene
+di( - Slett innholdet i parenteser
+di{ - Slett innholdet i krøllparenteser
+
+Søk og erstatt
+
+/%  - Søk i dokumentet
+n   - Gå til neste søkeresultat
+N   - Gå til forrige søkeresultat
+:%s/gamle/nye/g   - Erstatt alle forekomster
+:%s/gamle/nye/gc  - Erstatt med bekreftelse
+
+Makroer
+
+qa  - Start innspilling av makro i register 'a'
+q   - Stopp innspilling av makro
+@a  - Kjør makro fra register 'a'
+99@a - Kjør makro 99 ganger
+
+Nyttige kombinasjoner
+
+f,  - Finn neste komma
+dt, - Slett til neste komma
+yyp - Kopier linje og lim inn under
+Ctrl+a - Øk tallet under markøren med 1
+
+Lagring og avslutting
+
+:w  - Lagre
+:q  - Avslutt
+:wq - Lagre og avslutt
+:q! - Avslutt uten å lagre
+
+Tips:
+
+    De fleste kommandoer kan kombineres med tall (f.eks. 5dd sletter 5 linjer)
+    Kommandoer er ofte bygget opp av verb + bevegelse (f.eks. dw = slett + ord)
+    I visual mode kan du bruke mange av de samme kommandoene som i normal mode
+    Tenk på i som "inside" og a som "around" når du jobber med tekst-objekter

@@ -1,0 +1,8 @@
+# Oppgave 1: Lag en makro som lager tall fra 0 til 100
+# 1. Skriv tallet 0, deretter trykk escape for å gå inn i normal mode
+# 2. Trykk 'qa' for å starte makro recording
+# 3. Trykk 'yyp' for å kopiere og lime inn linjen under
+# 4. Trykk 'Ctrl+a' for å øke tallet med 1
+# 5. Trykk 'q' for å avslutte makro recording
+# 6. Skriv '99@a' for å kjøre makroen 99 ganger
+
