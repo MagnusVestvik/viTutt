@@ -1,13 +1,15 @@
+NB!!!! Man kan alltid gå tilbake til normal mode ved å trykke esc, og insert mode med enten i eller a
 # Oppgave 1: Bruk 'x' for å slette bokstaven 'x'
 Instruksjoner:
 - Bruk 'h' for å bevege cursoren til venstre
 - Bruk 'l' for å bevege cursoren til høyre
-- Naviger til 'x' ved å trykke 'l' fem ganger (eller til cursoren er over 'x')
+- Bruk 'j' for å bevege cursoren til nedover
+- Bruk 'k' for å bevege cursoren til oppover
+- Naviger til 'x' ved å trykke 'l' til cursoren er over 'x'
 - Trykk 'x' for å slette bokstaven
+- NB denne lagres til clipboard så om du deretter trykker p vil du lime inn den slettede bokstaven!
 
 hello world
-
-
 
 # Oppgave 2: Bruk 'dd' for å slette hele linjen
 Instruksjoner:
@@ -17,8 +19,6 @@ Instruksjoner:
 - Trykk 'dd' for å slette hele linjen
 denne linjen skal slettes
 behold denne linjen
-
-
 
 # Oppgave 3: Bruk 'dw' for å slette ordet 'slett'
 Instruksjoner:
@@ -41,7 +41,7 @@ Tips for effektiv navigering:
 # Oppgave 4: Bruk '$' for å gå til slutten av linjen.
 Deretter bruk 'I' for å sette inn tekst på starten av linjen
 # skal bli: hello world
-world    
+hello world    
 
 # Oppgave 5: Bruk 'A' for å legge til tekst på slutten av linjen
 # skal bli: dette er en test!!!
