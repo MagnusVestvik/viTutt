@@ -95,3 +95,8 @@ Tips:
     Kommandoer er ofte bygget opp av verb + bevegelse (f.eks. dw = slett + ord)
     I visual mode kan du bruke mange av de samme kommandoene som i normal mode
     Tenk på i som "inside" og a som "around" når du jobber med tekst-objekter
+
+.vimrc:
+set clipboard=unnamedplus # synchs clipboard to system clipboard
+
+set mouse=a  # enables mouse support
